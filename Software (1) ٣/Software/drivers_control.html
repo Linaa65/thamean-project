@@ -48,12 +48,14 @@
             <h4>Ahmed Alqahtani</h4>
             <p>Phone: 0551234567</p>
             <p>National ID: 1234567890</p>
+			<p>Statatus: Available</p>
             <button class="delete-btn" onclick="deleteDriver(this)">Delete</button>
           </div>
           <div class="driver-card">
             <h4>Faisal Alharbi</h4>
             <p>Phone: 0509876543</p>
             <p>National ID: 9876543210</p>
+			<p>Statatus: Busy</p>
             <button class="delete-btn" onclick="deleteDriver(this)">Delete</button>
           </div>
         </div>
@@ -85,7 +87,7 @@
 
       const newDriver = document.createElement("div");
       newDriver.className = "driver-card";
-      newDriver.innerHTML = `<h4>${fullName}</h4><p>Phone: ${phoneNumber}</p><p>National ID: ${nationalId}</p><button class="delete-btn" onclick="deleteDriver(this)">Delete</button>`;
+      newDriver.innerHTML = `<h4>${fullName}</h4><p>Phone: ${phoneNumber}</p><p>National ID: ${nationalId}</p><p>Statatus: Available</p><button class="delete-btn" onclick="deleteDriver(this)">Delete</button>`;
       document.getElementById("driverList").prepend(newDriver);
       successBox.style.display = "block";
       document.getElementById("fullName").value = "";
