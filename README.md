@@ -1,22 +1,42 @@
-# THAMEAN - Request Management System
+# Thamean - Valuable Items Delivery System
 
-## Overview
-A web application to manage delivery/shipping requests. Users can create, view, edit, delete, and search requests.
+## Description
+Thamean is a web-based system designed for the secure delivery of valuable items. 
+The system allows users to create delivery requests, track their shipments, and manage their requests بسهولة وأمان.
+
+
+
+## Features
+- Create a new delivery request
+- View all user requests
+- View request details
+- Edit request information
+- Search by Request ID
+
+
+
 
 ## Pages
-- Home – Search by Request ID, navigate to My Requests or Create Request.
-- My Requests – List of all requests showing Request ID and status (In Transit, Delivered, Pending).
-- Create Request – Form includes: item type, value range, pickup/dropoff locations, 4-digit security code. Displays service price and insurance coverage (up to 10,000 SAR).
-- Request Details – View all request details. Options to edit or delete the request from this page.
+- Home Page
+- My Requests Page
+- Request Details Page
+- Create Request Page
+- Edit Request Page
 
-## Key Features
-- Full CRUD operations (Create, Read, Update, Delete)
-- Search by Request ID from home page
-- 4-digit security code for each request
-- Insurance coverage based on item value
 
-## Tech Stack
-HTML, CSS, JavaScript 
 
-## Run Locally
-open home.html in any browser.
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+
+
+## How to Run the Project
+open home.html in any browser
+
+
+## Notes
+- The system focuses on secure transportation of valuable items.
+- Insurance coverage is provided for high-value items.
+
