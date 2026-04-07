@@ -2,7 +2,7 @@
 
 ## Description
 Thamean is a web-based system designed for the secure delivery of valuable items. 
-The system allows users to create delivery requests, track their shipments, and manage their requests بسهولة وأمان.
+The system allows users to create delivery requests, track their shipments, and manage their requests
 
 
 
