@@ -1,4 +1,3 @@
-# thamean-project
 # THAMEAN - Request Management System
 
 ## Overview
